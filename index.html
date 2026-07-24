@@ -27,106 +27,117 @@
 <body class="bg-slate-50 text-slate-800 font-sans">
 
     <!-- Top Slogan Header -->
-    <header class="bg-blue-600 text-white py-2 text-center font-semibold tracking-wider text-sm md:text-base">
+    <header class="bg-blue-600 text-white py-2 text-center font-semibold tracking-wider text-sm md:text-base shadow-inner">
         പഠനം. സമരം. സാഹോദര്യം
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="bg-white/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
             <div class="flex items-center space-x-3">
-                <span class="text-xl font-bold text-blue-700">KSU UCEK</span>
+                <span class="text-xl font-extrabold text-blue-700 tracking-tight">KSU UCEK</span>
             </div>
-            <div class="hidden md:flex space-x-6 font-medium text-sm">
-                <a href="#home" class="hover:text-blue-600">Home</a>
-                <a href="#about" class="hover:text-blue-600">About</a>
-                <a href="#kalavedhi" class="hover:text-blue-600">Kalavedhi</a>
-                <a href="#gallery" class="hover:text-blue-600">Gallery</a>
-                <a href="#hostels" class="hover:text-blue-600">Hostel Details</a>
-                <a href="#helpdesk" class="hover:text-blue-600">KEAM Help Desk</a>
-                <a href="#join" class="bg-blue-600 text-white px-4 py-1.5 rounded-full hover:bg-blue-700">Join Us</a>
+            <div class="hidden md:flex space-x-6 font-medium text-sm items-center">
+                <a href="#home" class="hover:text-blue-600 transition">Home</a>
+                <a href="#about" class="hover:text-blue-600 transition">About</a>
+                <a href="#kalavedhi" class="hover:text-blue-600 transition">Kalavedhi</a>
+                <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
+                <a href="#hostels" class="hover:text-blue-600 transition">Hostel Details</a>
+                <a href="#helpdesk" class="hover:text-blue-600 transition">KEAM Help Desk</a>
+                <a href="#join" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition shadow-sm">Join Us</a>
             </div>
         </div>
     </nav>
 
-    <!-- Home Section -->
-    <section id="home" class="py-16 px-4 max-w-7xl mx-auto text-center">
-        <h1 class="text-3xl md:text-5xl font-extrabold text-blue-900 mb-6">Breaking 26 Years of One-Party Rule</h1>
-        <p class="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed mb-12">
-            Breaking the long 26 years of only one unit/party in UCEK's history, we have emerged to bring you the KSU wing of our college—standing up for the students, for every need of the student.
-        </p>
+    <!-- Home Section with College Background -->
+    <section id="home" class="relative py-28 px-4 text-center text-white bg-cover bg-center" style="background-image: url('colg (1)_2.jpg');">
+        <div class="absolute inset-0 bg-slate-950/75"></div>
+        
+        <div class="relative z-10 max-w-5xl mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-6 tracking-tight">Breaking 26 Years of One-Party Rule</h1>
+            <p class="text-lg md:text-xl max-w-3xl mx-auto leading-relaxed mb-12 text-slate-200 font-light">
+                Breaking the long 26 years of only one unit/party in UCEK's history, we have emerged to bring you the KSU wing of our college—standing up for the students, for every need of the student.
+            </p>
 
-        <!-- Mission / Vision Cards -->
-        <div class="grid md:grid-cols-2 gap-8 text-left mt-8">
-            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
-                <h3 class="text-xl font-bold text-blue-600 mb-3">⚖️ Social Justice</h3>
-                <p class="text-slate-600">Protecting students' rights and standing firmly against oppression, inequality, and discrimination across campus.</p>
-            </div>
-            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-100">
-                <h3 class="text-xl font-bold text-blue-600 mb-3">🤝 Solidarity</h3>
-                <p class="text-slate-600">Building a united, progressive student society where every voice matters and peer support drives collective growth.</p>
+            <!-- Mission / Vision Cards -->
+            <div class="grid md:grid-cols-2 gap-8 text-left mt-12">
+                <div class="bg-white/95 backdrop-blur p-8 rounded-2xl shadow-xl text-slate-800 border border-white/20">
+                    <h3 class="text-xl font-bold text-blue-600 mb-3 flex items-center gap-2">⚖️ Social Justice</h3>
+                    <p class="text-slate-600 leading-relaxed">Protecting students' rights and standing firmly against oppression, inequality, and discrimination across campus.</p>
+                </div>
+                <div class="bg-white/95 backdrop-blur p-8 rounded-2xl shadow-xl text-slate-800 border border-white/20">
+                    <h3 class="text-xl font-bold text-blue-600 mb-3 flex items-center gap-2">🤝 Solidarity</h3>
+                    <p class="text-slate-600 leading-relaxed">Building a united, progressive student society where every voice matters and peer support drives collective growth.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Upcoming Events Section -->
-    <section class="bg-blue-50 py-16 px-4">
+    <section class="bg-slate-100 py-20 px-4">
         <div class="max-w-7xl mx-auto">
-            <h2 class="text-2xl md:text-3xl font-bold text-center text-blue-900 mb-8">Upcoming Events</h2>
-            <div class="grid md:grid-cols-3 gap-6">
-                <!-- Editable Upcoming Event Box 1 -->
-                <div class="bg-white rounded-lg p-4 shadow border border-blue-100">
-                    <div class="h-48 bg-slate-200 rounded mb-4 flex items-center justify-center text-slate-400 font-medium">[ Attach Image / Poster ]</div>
-                    <h4 class="font-bold text-lg text-slate-800 mb-1">Event Title Coming Soon</h4>
-                    <p class="text-sm text-slate-500 mb-4">Date & Venue TBA</p>
-                    <a href="#" class="inline-block text-sm text-blue-600 font-semibold hover:underline">Event Link / Details &rarr;</a>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-extrabold text-blue-900 mb-2">Upcoming & Recent Events</h2>
+                <p class="text-slate-500">Catch up on our latest engagements and activities at UCEK.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <!-- Event 1: Photo Contest -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-slate-200 flex flex-col justify-between hover:shadow-lg transition">
+                    <div>
+                        <img src="event1.jpg" alt="Frame the Friendship Photo Contest" class="h-80 w-full object-cover rounded-xl mb-4 shadow-sm">
+                        <h4 class="font-bold text-xl text-slate-800 mb-2">Frame The Friendship - Photo Contest</h4>
+                        <p class="text-sm text-slate-500 mb-4 font-medium">చిരി, చుండాత్తం, ఒక క్లిక్...</p>
+                    </div>
+                    <a href="#join" class="text-center bg-blue-50 text-blue-600 font-semibold py-2.5 rounded-xl hover:bg-blue-600 hover:text-white transition">Participate Now</a>
                 </div>
-                <!-- Editable Upcoming Event Box 2 -->
-                <div class="bg-white rounded-lg p-4 shadow border border-blue-100">
-                    <div class="h-48 bg-slate-200 rounded mb-4 flex items-center justify-center text-slate-400 font-medium">[ Attach Image / Poster ]</div>
-                    <h4 class="font-bold text-lg text-slate-800 mb-1">Event Title Coming Soon</h4>
-                    <p class="text-sm text-slate-500 mb-4">Date & Venue TBA</p>
-                    <a href="#" class="inline-block text-sm text-blue-600 font-semibold hover:underline">Event Link / Details &rarr;</a>
-                </div>
-                <!-- Editable Upcoming Event Box 3 -->
-                <div class="bg-white rounded-lg p-4 shadow border border-blue-100">
-                    <div class="h-48 bg-slate-200 rounded mb-4 flex items-center justify-center text-slate-400 font-medium">[ Attach Image / Poster ]</div>
-                    <h4 class="font-bold text-lg text-slate-800 mb-1">Event Title Coming Soon</h4>
-                    <p class="text-sm text-slate-500 mb-4">Date & Venue TBA</p>
-                    <a href="#" class="inline-block text-sm text-blue-600 font-semibold hover:underline">Event Link / Details &rarr;</a>
+
+                <!-- Event 2: Talk Session -->
+                <div class="bg-white rounded-2xl p-5 shadow-md border border-slate-200 flex flex-col justify-between hover:shadow-lg transition">
+                    <div>
+                        <img src="event2.jpg" alt="Talk Session with Shri Kannan Gopinathan" class="h-80 w-full object-cover rounded-xl mb-4 shadow-sm">
+                        <h4 class="font-bold text-xl text-slate-800 mb-2">Talk Session: Exam Frauds & Paper Leaks</h4>
+                        <p class="text-sm text-slate-500 mb-1">Addressed by: Shri Kannan Gopinathan (Former IAS, Activist)</p>
+                        <p class="text-sm text-slate-500 mb-4">Venue: Seminar Hall | 9:30 AM - 10:30 AM</p>
+                    </div>
+                    <span class="text-center bg-slate-100 text-slate-600 font-semibold py-2.5 rounded-xl">Event Concluded Successfully</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Kalavedhi Section -->
-    <section id="kalavedhi" class="py-16 px-4 max-w-5xl mx-auto text-center">
-        <h2 class="text-3xl font-bold text-blue-900 mb-4">Kalavedhi — Embrace Culture</h2>
-        <p class="text-lg text-slate-600 leading-relaxed mb-6">
-            Kalavedhi is our cultural wing dedicated to organizing events where students can actively participate in sports, music, arts, and games. It helps students discover and nurture their true talents, enabling them to reach new heights. Through these events, students realize their absolute potential. UCEK has just emerged with its KSU wing and will remain active year-round to organize engaging cultural experiences for all UCEK-ians.
+    <section id="kalavedhi" class="py-20 px-4 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-extrabold text-blue-900 mb-6">Kalavedhi — Embrace Culture</h2>
+        <p class="text-lg text-slate-600 leading-relaxed bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+            Kalavedhi is our vibrant cultural wing that organizes events for students to actively participate in sports, music, arts, and games, helping them discover and nurture their true talents, enabling them to reach new heights. These events help students realize their potential and understand what they are truly meant for. UCEK has just emerged with its KSU wing and will be active in upcoming years to organize and bring up exciting events for all UCEK-ians.
         </p>
     </section>
 
     <!-- Gallery Section -->
     <section id="gallery" class="py-16 px-4 max-w-7xl mx-auto">
-        <h2 class="text-3xl font-bold text-center text-blue-900 mb-8">Gallery</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="h-48 bg-slate-100 rounded flex items-center justify-center text-slate-400 border border-dashed border-slate-300">Images Uploading Soon</div>
-            <div class="h-48 bg-slate-100 rounded flex items-center justify-center text-slate-400 border border-dashed border-slate-300">Images Uploading Soon</div>
-            <div class="h-48 bg-slate-100 rounded flex items-center justify-center text-slate-400 border border-dashed border-slate-300">Images Uploading Soon</div>
-            <div class="h-48 bg-slate-100 rounded flex items-center justify-center text-slate-400 border border-dashed border-slate-300">Images Uploading Soon</div>
+        <h2 class="text-3xl font-extrabold text-center text-blue-900 mb-8">Campus & Event Gallery</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="h-64 rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <img src="collleg entrnace.jpeg" alt="College Entrance" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="h-64 rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <img src="colg_2.jpg" alt="College Building View" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+            <div class="h-64 rounded-xl overflow-hidden shadow-sm border border-slate-200">
+                <img src="colg clock_2.jpg" alt="College Clock Tower" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
         </div>
     </section>
 
     <!-- Hostel Details Section (Watermarked) -->
-    <section id="hostels" class="py-16 px-4 max-w-7xl mx-auto watermark-bg bg-white shadow-sm rounded-xl p-8 my-8">
+    <section id="hostels" class="py-20 px-4 max-w-7xl mx-auto watermark-bg bg-white shadow-lg rounded-3xl p-8 my-12 border border-slate-100">
         <div class="relative z-10">
-            <h2 class="text-3xl font-bold text-blue-900 mb-2">Hostel & PG Directory</h2>
+            <h2 class="text-3xl font-extrabold text-blue-900 mb-2">Hostel & PG Directory</h2>
             <p class="text-slate-500 mb-8">Verified accommodation listings near Kariavattom campus[cite: 1].</p>
             
-            <div class="grid md:grid-cols-2 gap-8">
+            <div class="grid md:grid-cols-2 gap-10">
                 <!-- Boys Hostels -->
-                <div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
                     <h3 class="text-xl font-bold text-blue-700 mb-4 border-b pb-2">Boys PGs & Hostels</h3>
                     <ul class="space-y-3 text-sm text-slate-700">
                         <li><strong>1. Priyanka Vihar:</strong> 9567751627 (₹6500 Dorm, ₹7500 2-Sharing)[cite: 1]</li>
@@ -141,11 +152,11 @@
                         <li><strong>10. Ashiana PG:</strong> ₹4000 (3-Sharing)[cite: 1]</li>
                         <li><strong>11. Ambady:</strong> 9447884090 | <strong>12. Anitha:</strong> 9633808338[cite: 1]</li>
                     </ul>
-                    <p class="text-xs text-slate-500 mt-3">Boys Contacts: Midhun (7736896842), Firdous (9745539845)[cite: 1]</p>
+                    <p class="text-xs text-slate-500 mt-4 font-medium">Boys Contacts: Midhun (7736896842), Firdous (9745539845)[cite: 1]</p>
                 </div>
 
                 <!-- Girls Hostels -->
-                <div>
+                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200">
                     <h3 class="text-xl font-bold text-blue-700 mb-4 border-b pb-2">Girls PGs & Hostels</h3>
                     <ul class="space-y-3 text-sm text-slate-700">
                         <li><strong>1. Sindhu:</strong> 9400186944 (₹4000 without food)[cite: 1]</li>
@@ -160,53 +171,60 @@
                         <li><strong>10. Merry Land:</strong> 9995641586 (₹5400-₹5700)[cite: 1]</li>
                         <li><strong>11. Joe Homes:</strong> 9895511009 (₹6000)[cite: 1]</li>
                     </ul>
-                    <p class="text-xs text-slate-500 mt-3">Girls Contacts: Amanya (9495706875), Adithya (9746565428), Gowri (7909260402)[cite: 1]</p>
+                    <p class="text-xs text-slate-500 mt-4 font-medium">Girls Contacts: Amanya (9495706875), Adithya (9746565428), Gowri (7909260402)[cite: 1]</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- KEAM Help Desk Section -->
-    <section id="helpdesk" class="py-16 px-4 max-w-4xl mx-auto text-center">
-        <h2 class="text-3xl font-bold text-blue-900 mb-4">KEAM 2026 Admission Help Desk</h2>
-        <p class="text-slate-600 mb-6">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for fast updates.</p>
-        
-        <div class="flex justify-center gap-4 mb-8">
-            <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="bg-green-600 text-white font-medium px-6 py-3 rounded-lg shadow hover:bg-green-700">
-                Join WhatsApp Help Group
-            </a>
-        </div>
+    <section id="helpdesk" class="py-20 px-4 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 md:p-12 rounded-3xl shadow-lg border border-slate-100">
+            <div>
+                <img src="helpdesk.jpg" alt="KEAM 2026 Admission Help Desk" class="rounded-2xl shadow-md w-full object-cover">
+            </div>
+            <div>
+                <h2 class="text-3xl font-extrabold text-blue-900 mb-4">KEAM 2026 Admission Help Desk</h2>
+                <p class="text-slate-600 mb-6 leading-relaxed">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for instant updates and guidance.</p>
+                
+                <div class="mb-8">
+                    <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="inline-block bg-green-600 text-white font-semibold px-6 py-3 rounded-xl shadow hover:bg-green-700 transition">
+                        Join WhatsApp Help Group 🚀
+                    </a>
+                </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-left">
-            <div class="bg-white p-4 rounded shadow-sm border">
-                <p class="font-bold text-blue-700">Anza</p>
-                <p class="text-sm text-slate-600">95675 83002</p>
-            </div>
-            <div class="bg-white p-4 rounded shadow-sm border">
-                <p class="font-bold text-blue-700">Midhun</p>
-                <p class="text-sm text-slate-600">77368 96842</p>
-            </div>
-            <div class="bg-white p-4 rounded shadow-sm border">
-                <p class="font-bold text-blue-700">Amina</p>
-                <p class="text-sm text-slate-600">90745 44049</p>
-            </div>
-            <div class="bg-white p-4 rounded shadow-sm border">
-                <p class="font-bold text-blue-700">Aslam</p>
-                <p class="text-sm text-slate-600">85477 30374</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <p class="font-bold text-blue-700">Anza</p>
+                        <p class="text-sm text-slate-600">95675 83002</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <p class="font-bold text-blue-700">Midhun</p>
+                        <p class="text-sm text-slate-600">77368 96842</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <p class="font-bold text-blue-700">Amina</p>
+                        <p class="text-sm text-slate-600">90745 44049</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
+                        <p class="font-bold text-blue-700">Aslam</p>
+                        <p class="text-sm text-slate-600">85477 30374</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer / Join Us Section -->
-    <footer id="join" class="bg-slate-900 text-white py-12 px-4 text-center">
-        <h2 class="text-2xl font-bold mb-4">Join the Blue Movement</h2>
-        <p class="text-slate-400 mb-6 max-w-xl mx-auto">Be a part of progressive student action at UCEK. Sign up using our official registration form.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNALcuC9eWqCCLiKSS4wv24OGdMVy2P3qCygnMrq_TDaV3tQ/viewform?pli=" target="_blank" class="inline-block bg-blue-600 text-white font-bold px-8 py-3 rounded-full hover:bg-blue-500 mb-8">
-            Open Membership Form
+    <footer id="join" class="bg-slate-950 text-white py-16 px-4 text-center mt-20">
+        <h2 class="text-3xl font-extrabold mb-4">Join the Blue Movement</h2>
+        <p class="text-slate-400 mb-8 max-w-xl mx-auto">Be a part of progressive student action at UCEK. Sign up using our official registration form.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNALcuC9eWqCCLiKSS4wv24OGdMVy2P3qCygnMrq_TDaV3tQ/viewform?pli=" target="_blank" class="inline-block bg-blue-600 text-white font-bold px-8 py-4 rounded-full hover:bg-blue-500 transition shadow-lg">
+            Open Membership Form ✨
         </a>
-        <div class="text-sm text-slate-500">
-            <p>Instagram: <a href="https://www.instagram.com/ksu.ucek?igsh=MXB0b3B4MWwzemVzMg==" target="_blank" class="text-blue-400 underline">@ksu.ucek</a></p>
-            <p class="mt-2">&copy; 2026 KSU UCE Kariavattom. All Rights Reserved.</p>
+        <div class="text-sm text-slate-400 mt-10">
+            <p>Instagram: <a href="https://www.instagram.com/ksu.ucek?igsh=MXB0b3B4MWwzemVzMg==" target="_blank" class="text-blue-400 underline font-medium hover:text-blue-300">@ksu.ucek</a></p>
+            <p class="mt-3 text-slate-500">&copy; 2026 KSU UCE Kariavattom. All Rights Reserved.</p>
         </div>
     </footer>
 
