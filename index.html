@@ -27,7 +27,7 @@
 </head>
 <body class="bg-slate-50 text-slate-800 font-sans selection:bg-blue-600 selection:text-white">
 
-    <!-- Navigation Bar with Integrated Logo & Slogan -->
+    <!-- Navigation Bar -->
     <nav class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
         <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
             <!-- Logo & Slogan Section -->
@@ -37,23 +37,23 @@
                 <span class="text-blue-700 font-extrabold tracking-wider text-sm md:text-base">പഠനം. സമരം. സാഹോദര്യം</span>
             </div>
 
-            <!-- Menu Links -->
+            <!-- Menu Links (Exact Order: Home, About, Kalavedhi, KEAM Help Desk, Hostel Details, Gallery, Join Us) -->
             <div class="hidden md:flex space-x-6 font-semibold text-sm items-center text-slate-600">
                 <a href="#home" class="hover:text-blue-600 transition">Home</a>
                 <a href="#about" class="hover:text-blue-600 transition">About</a>
                 <a href="#kalavedhi" class="hover:text-blue-600 transition">Kalavedhi</a>
-                <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
-                <a href="#hostels" class="hover:text-blue-600 transition">Hostel Details</a>
                 <a href="#helpdesk" class="hover:text-blue-600 transition">KEAM Help Desk</a>
-                <a href="#join" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-md shadow-blue-500/20">Join Us</a>
+                <a href="#hostels" class="hover:text-blue-600 transition">Hostel Details</a>
+                <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNALcuC9eWqCCLiKSS4wv24OGdMVy2P3qCygnMrq_TDaV3tQ/viewform?pli=" target="_blank" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-md shadow-blue-500/20">Join Us</a>
             </div>
         </div>
     </nav>
 
-   <!-- Home Section with Current Background and Logo -->
+    <!-- Home Section with Current Background and Logo -->
     <section id="home" class="relative min-h-screen flex items-center justify-center py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden" style="background-image: url('gallery5f.jpeg');">
         
-        <!-- Smooth gradient transition fading smoothly to dark at the bottom to merge into the next section -->
+        <!-- Smooth gradient transition fading to dark at the bottom to merge continuously into About -->
         <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950"></div>
 
         <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
@@ -74,7 +74,7 @@
     <!-- About Section with clgfrnt.jpeg Background Seamlessly Blended -->
     <section id="about" class="relative py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden -mt-1" style="background-image: url('clgfrnt.jpeg');">
         
-        <!-- Continuous background overlay matching the bottom of home section to create an uninterrupted blend -->
+        <!-- Continuous background overlay matching the bottom of home section -->
         <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/85 to-slate-950/95"></div>
 
         <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center space-y-8">
@@ -100,65 +100,7 @@
         </div>
     </section>
 
-    <!-- Upcoming & Recent Events Section -->
-    <section class="bg-slate-100 py-24 px-4">
-        <div class="max-w-7xl mx-auto">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-3">Upcoming & Recent Events</h2>
-                <p class="text-slate-500 font-medium">Catch up on our latest engagements and activities at UCEK.</p>
-            </div>
-            
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
-                <!-- 1. Photo Contest -->
-                <div class="bg-white rounded-3xl p-6 shadow-xl border border-slate-200/80 flex flex-col justify-between hover:shadow-2xl transition">
-                    <div>
-                        <img src="event1.PNG" alt="Frame the Friendship Photo Contest" class="h-56 w-full object-cover rounded-2xl mb-4 shadow-md">
-                        <h4 class="font-black text-lg text-slate-900 mb-2">Frame The Friendship - Photo Contest</h4>
-                        <p class="text-xs text-slate-600 mb-6 leading-relaxed font-medium">
-                            This International Friendship Day, share your favourite photo with your friends and celebrate the moments that make your bond special. ✨<br><br>
-                            📌 One entry per person<br>
-                            Winners will be selected through a lucky draw—because every friendship is equally special!<br><br>
-                            🗓️ Last Date: 30 July 2026
-                        </p>
-                    </div>
-                    <a href="https://docs.google.com/forms/d/1LkHDFfPQLruyYD1hz-R0OGbENHzPlX_Zu2dH-_MGXrg/viewform" target="_blank" class="text-center bg-blue-600 text-white font-bold py-3 rounded-2xl hover:bg-blue-700 transition shadow-md shadow-blue-500/20 text-sm">
-                        Participate Now ✨
-                    </a>
-                </div>
-
-                <!-- 2. Talk Session -->
-                <div class="bg-white rounded-3xl p-6 shadow-xl border border-slate-200/80 flex flex-col justify-between hover:shadow-2xl transition">
-                    <div>
-                        <img src="event2.PNG" alt="Talk Session with Shri Kannan Gopinathan" class="h-56 w-full object-cover rounded-2xl mb-4 shadow-md">
-                        <h4 class="font-black text-lg text-slate-900 mb-2">Talk Session: Exam Frauds & Paper Leaks</h4>
-                        <p class="text-xs text-slate-600 mb-3 font-medium">
-                            Addressed by: <strong class="text-slate-900">Shri Kannan Gopinathan</strong> (Former IAS, Activist)<br><br>
-                            Venue: Seminar Hall | 9:30 AM - 10:30 AM
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 3. Petition Event (event4.PNG) -->
-                <div class="bg-white rounded-3xl p-6 shadow-xl border border-slate-200/80 flex flex-col justify-between hover:shadow-2xl transition">
-                    <div>
-                        <img src="event4.PNG" alt="Petition Submitted" class="h-56 w-full object-cover rounded-2xl mb-4 shadow-md">
-                        <h4 class="font-black text-lg text-slate-900 mb-2">Representation & Petition</h4>
-                        <p class="text-xs text-slate-600 mb-3 leading-relaxed font-medium">
-                            Petition submitted to Hon'ble Minister Roji M. John pointing out to lack of basic facilities in college building.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 4. Banner Only (event3.PNG) -->
-                <div class="bg-white rounded-3xl p-6 shadow-xl border border-slate-200/80 flex flex-col justify-between hover:shadow-2xl transition">
-                    <div>
-                        <img src="event3.PNG" alt="Event Banner" class="h-64 w-full object-cover rounded-2xl mb-4 shadow-md">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-   <!-- Kalavedhi Hero & Cultural Section -->
+    <!-- Kalavedhi Hero & Cultural Section -->
     <section id="kalavedhi" class="py-24 px-4 max-w-7xl mx-auto">
         <div class="relative overflow-hidden rounded-[2.5rem] shadow-2xl border border-blue-400/30 bg-slate-950 group">
             
@@ -197,10 +139,10 @@
 
                         <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
                             <div class="bg-blue-600/30 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-200 shadow-lg">
-                                 #UCEKianSpirit
+                                #UCEKianSpirit
                             </div>
                             <div class="bg-blue-600/30 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-200 shadow-lg">
-                                 #KSUKalavedhi
+                                #KSUKalavedhi
                             </div>
                         </div>
                     </div>
@@ -221,7 +163,7 @@
                             <div class="bg-slate-950 rounded-2xl p-8 text-center border border-slate-800 shadow-inner mb-6 relative overflow-hidden group-hover/card:border-blue-500/30 transition">
                                 <div class="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent opacity-0 group-hover/card:opacity-100 transition"></div>
                                 <div class="relative z-10 space-y-3">
-                                    <div class="text-3xl"></div>
+                                    <div class="text-3xl">✨</div>
                                     <h4 class="text-lg font-black tracking-widest text-white uppercase">Coming Soon</h4>
                                     <p class="text-xs text-slate-400 font-light leading-relaxed">
                                         Event details will be announced soon. Stay tuned for the big reveal!
@@ -244,7 +186,73 @@
         </div>
     </section>
 
-   <!-- Campus & Event Gallery Section (Infinite Auto-Scroll Carousel) -->
+    <!-- KEAM Help Desk Section -->
+    <section id="helpdesk" class="py-24 px-4 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-slate-100">
+            <div>
+                <img src="helpdesk.PNG" alt="KEAM 2026 Admission Help Desk" class="rounded-2xl shadow-lg w-full object-cover border border-slate-100">
+            </div>
+            <div>
+                <h2 class="text-3xl font-black text-blue-900 mb-4">KEAM 2026 Admission Help Desk</h2>
+                <p class="text-slate-600 mb-8 leading-relaxed font-medium">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for instant updates and guidance.</p>
+                
+                <div class="mb-8">
+                    <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-7 py-3.5 rounded-2xl shadow-lg shadow-emerald-600/20 hover:bg-emerald-700 transition">
+                        <span>Join WhatsApp Help Group</span> 🚀
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+                        <p class="font-black text-blue-800">Anza</p>
+                        <p class="text-sm text-slate-600 font-medium">95675 83002</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+                        <p class="font-black text-blue-800">Midhun</p>
+                        <p class="text-sm text-slate-600 font-medium">77368 96842</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+                        <p class="font-black text-blue-800">Amina</p>
+                        <p class="text-sm text-slate-600 font-medium">90745 44049</p>
+                    </div>
+                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
+                        <p class="font-black text-blue-800">Aslam</p>
+                        <p class="text-sm text-slate-600 font-medium">85477 30374</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hostel Details Section with PDF Banner Link -->
+    <section id="hostels" class="py-24 px-4 max-w-5xl mx-auto watermark-bg">
+        <div class="relative z-10 bg-white shadow-2xl rounded-3xl p-8 md:p-12 border border-slate-100 text-center">
+            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-3">Hostel & PG Directory</h2>
+            <p class="text-slate-500 mb-10 font-medium">Verified accommodation listings and contact details near Kariavattom campus.</p>
+            
+            <!-- Clickable PDF Banner Link -->
+            <a href="HOSTEL DET.pdf" target="_blank" class="group relative block overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 to-blue-900 p-8 md:p-10 text-white shadow-xl transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl">
+                <div class="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition duration-300"></div>
+                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+                    <div class="text-left">
+                        <span class="inline-block bg-white/20 px-3.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase mb-3 backdrop-blur-md">
+                            Official Document
+                        </span>
+                        <h3 class="text-2xl md:text-3xl font-black mb-2">View Complete Hostel & PG Directory PDF</h3>
+                        <p class="text-blue-100 text-sm md:text-base font-light">Click here to open or download the official accommodation guide with full contact numbers and rates.</p>
+                    </div>
+                    <div class="bg-white text-blue-900 font-bold px-7 py-4 rounded-2xl shadow-lg flex items-center gap-2 group-hover:bg-blue-50 transition shrink-0">
+                        <span>Open PDF</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Campus & Event Gallery Section (Infinite Auto-Scroll Carousel) -->
     <section id="gallery" class="py-24 px-4 bg-slate-900 overflow-hidden">
         <!-- Infinite Scrolling Marquee Wrapper -->
         <div class="relative w-full overflow-hidden">
@@ -330,72 +338,6 @@
             animation-play-state: paused;
         }
     </style>
-
-    <!-- Hostel Details Section with PDF Banner Link -->
-    <section id="hostels" class="py-24 px-4 max-w-5xl mx-auto watermark-bg">
-        <div class="relative z-10 bg-white shadow-2xl rounded-3xl p-8 md:p-12 border border-slate-100 text-center">
-            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-3">Hostel & PG Directory</h2>
-            <p class="text-slate-500 mb-10 font-medium">Verified accommodation listings and contact details near Kariavattom campus.</p>
-            
-            <!-- Clickable PDF Banner Link -->
-            <a href="HOSTEL DET.pdf" target="_blank" class="group relative block overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 to-blue-900 p-8 md:p-10 text-white shadow-xl transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl">
-                <div class="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition duration-300"></div>
-                <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-                    <div class="text-left">
-                        <span class="inline-block bg-white/20 px-3.5 py-1 rounded-full text-xs font-bold tracking-wider uppercase mb-3 backdrop-blur-md">
-                            Official Document
-                        </span>
-                        <h3 class="text-2xl md:text-3xl font-black mb-2">View Complete Hostel & PG Directory PDF</h3>
-                        <p class="text-blue-100 text-sm md:text-base font-light">Click here to open or download the official accommodation guide with full contact numbers and rates.</p>
-                    </div>
-                    <div class="bg-white text-blue-900 font-bold px-7 py-4 rounded-2xl shadow-lg flex items-center gap-2 group-hover:bg-blue-50 transition shrink-0">
-                        <span>Open PDF</span>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                        </svg>
-                    </div>
-                </div>
-            </a>
-        </div>
-    </section>
-
-    <!-- KEAM Help Desk Section -->
-    <section id="helpdesk" class="py-24 px-4 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-slate-100">
-            <div>
-                <img src="helpdesk.PNG" alt="KEAM 2026 Admission Help Desk" class="rounded-2xl shadow-lg w-full object-cover border border-slate-100">
-            </div>
-            <div>
-                <h2 class="text-3xl font-black text-blue-900 mb-4">KEAM 2026 Admission Help Desk</h2>
-                <p class="text-slate-600 mb-8 leading-relaxed font-medium">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for instant updates and guidance.</p>
-                
-                <div class="mb-8">
-                    <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-7 py-3.5 rounded-2xl shadow-lg shadow-emerald-600/20 hover:bg-emerald-700 transition">
-                        <span>Join WhatsApp Help Group</span> 🚀
-                    </a>
-                </div>
-
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Anza</p>
-                        <p class="text-sm text-slate-600 font-medium">95675 83002</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Midhun</p>
-                        <p class="text-sm text-slate-600 font-medium">77368 96842</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Amina</p>
-                        <p class="text-sm text-slate-600 font-medium">90745 44049</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Aslam</p>
-                        <p class="text-sm text-slate-600 font-medium">85477 30374</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer / Join Us Section -->
     <footer id="join" class="bg-slate-950 text-white py-20 px-4 text-center mt-20 border-t border-slate-900">
