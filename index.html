@@ -25,104 +25,74 @@
         }
     </style>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans selection:bg-blue-600 selection:text-white">
+<body class="bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white">
 
     <!-- Navigation Bar -->
-    <nav class="bg-white/95 backdrop-blur-md shadow-sm sticky top-0 z-50 border-b border-slate-100">
+    <nav class="bg-slate-950/80 backdrop-blur-md shadow-lg sticky top-0 z-50 border-b border-white/10">
         <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
             <!-- Logo & Slogan Section -->
             <div class="flex items-center space-x-4">
-                <img src="logo ksu.jpeg" alt="KSU logo" class="h-12 w-12 object-contain rounded-xl shadow-sm border border-slate-100 p-0.5 bg-white">
-                <div class="hidden sm:block h-6 w-px bg-slate-200"></div>
-                <span class="text-blue-700 font-extrabold tracking-wider text-sm md:text-base">പഠനം. സമരം. സാഹോദര്യം</span>
+                <img src="logo ksu.jpeg" alt="KSU logo" class="h-12 w-12 object-contain rounded-xl shadow-sm border border-white/10 p-0.5 bg-white">
+                <div class="hidden sm:block h-6 w-px bg-white/20"></div>
+                <span class="text-blue-400 font-extrabold tracking-wider text-sm md:text-base">പഠനം. സമരം. സാഹോദര്യം</span>
             </div>
 
             <!-- Menu Links (Exact Order: Home, About, Kalavedhi, KEAM Help Desk, Hostel Details, Gallery, Join Us) -->
-            <div class="hidden md:flex space-x-6 font-semibold text-sm items-center text-slate-600">
-                <a href="#home" class="hover:text-blue-600 transition">Home</a>
-                <a href="#about" class="hover:text-blue-600 transition">About</a>
-                <a href="#kalavedhi" class="hover:text-blue-600 transition">Kalavedhi</a>
-                <a href="#helpdesk" class="hover:text-blue-600 transition">KEAM Help Desk</a>
-                <a href="#hostels" class="hover:text-blue-600 transition">Hostel Details</a>
-                <a href="#gallery" class="hover:text-blue-600 transition">Gallery</a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNALcuC9eWqCCLiKSS4wv24OGdMVy2P3qCygnMrq_TDaV3tQ/viewform?pli=" target="_blank" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-700 transition shadow-md shadow-blue-500/20">Join Us</a>
+            <div class="hidden md:flex space-x-6 font-semibold text-sm items-center text-slate-300">
+                <a href="#home" class="hover:text-blue-400 transition">Home</a>
+                <a href="#about" class="hover:text-blue-400 transition">About</a>
+                <a href="#kalavedhi" class="hover:text-blue-400 transition">Kalavedhi</a>
+                <a href="#helpdesk" class="hover:text-blue-400 transition">KEAM Help Desk</a>
+                <a href="#hostels" class="hover:text-blue-400 transition">Hostel Details</a>
+                <a href="#gallery" class="hover:text-blue-400 transition">Gallery</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfNALcuC9eWqCCLiKSS4wv24OGdMVy2P3qCygnMrq_TDaV3tQ/viewform?pli=" target="_blank" class="bg-blue-600 text-white px-5 py-2.5 rounded-full hover:bg-blue-500 transition shadow-md shadow-blue-500/20">Join Us</a>
             </div>
         </div>
     </nav>
 
-    <!-- Home Section with Current Background and Logo -->
+    <!-- Home Section -->
     <section id="home" class="relative min-h-screen flex items-center justify-center py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden" style="background-image: url('gallery5f.jpeg');">
-        
-        <!-- Smooth gradient transition fading to dark at the bottom to merge continuously into About -->
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950"></div>
-
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/50 via-slate-950/30 to-slate-950"></div>
         <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
-            
-            <!-- KSU Logo Badge -->
             <div class="mb-8 p-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl">
                 <img src="logo ksu.jpeg" alt="KSU Logo" class="h-20 w-20 md:h-24 md:w-24 object-contain rounded-xl shadow-[0_0_25px_rgba(59,130,246,0.6)]">
             </div>
-
-            <!-- Motto in Malayalam in One Line -->
             <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-wide mb-6 text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)] whitespace-nowrap">
                 പഠനം. സമരം. സാഹോദര്യം
             </h1>
-
         </div>
     </section>
 
-    <!-- About Section with clgfrnt.jpeg Background Seamlessly Blended -->
+    <!-- About Section (Continuous blend from Home) -->
     <section id="about" class="relative py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden -mt-1" style="background-image: url('clgfrnt.jpeg');">
-        
-        <!-- Continuous background overlay matching the bottom of home section -->
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/85 to-slate-950/95"></div>
-
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/40 to-slate-950"></div>
         <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center space-y-8">
-            
-            <!-- Heading with Distinct Typography Style -->
-            <span class="text-xs md:text-sm font-black tracking-[0.4em] uppercase text-blue-400 drop-shadow">
+            <span class="text-xs md:text-sm font-black tracking-[0.4em] uppercase text-blue-300 drop-shadow">
                 Our Roots & Mission
             </span>
             <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] font-serif">
                 About UCEK KSU Wing
             </h2>
-
-            <!-- Description Text -->
-            <p class="text-base md:text-xl leading-relaxed text-slate-300 font-light drop-shadow-md max-w-3xl">
+            <p class="text-base md:text-xl leading-relaxed text-slate-100 font-light drop-shadow-md max-w-3xl">
                 Breaking the long 26 years of only one unit/party in UCEK's history, we have emerged to bring you the KSU wing of our college—standing up for the students, for every need of the student.
             </p>
-
-            <!-- Solidarity & Social Justice Details -->
-            <p class="text-sm md:text-lg leading-relaxed text-blue-100 font-light drop-shadow-md max-w-2xl pt-4 border-t border-white/10">
+            <p class="text-sm md:text-lg leading-relaxed text-blue-200 font-light drop-shadow-md max-w-2xl pt-4 border-t border-white/20">
                 We support and aim for <strong>Solidarity</strong> by uniting every student voice in mutual support, and <strong>Social Justice</strong> by fiercely standing up against campus inequality and protecting student rights.
             </p>
-
         </div>
     </section>
 
-    <!-- Kalavedhi Hero & Cultural Section -->
-    <section id="kalavedhi" class="py-24 px-4 max-w-7xl mx-auto">
-        <div class="relative overflow-hidden rounded-[2.5rem] shadow-2xl border border-blue-400/30 bg-slate-950 group">
-            
-            <!-- Immersive Background Image (kalavedihero1.jpg) with Clear Visibility -->
-            <div class="absolute inset-0 bg-cover bg-center opacity-75 scale-100 group-hover:scale-105 transition-transform duration-1000" style="background-image: url('kalavedihero1.jpg');"></div>
-            
-            <!-- Lighter Gradient Overlay so the background image pops clearly -->
-            <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/70 to-blue-950/70 backdrop-blur-[0.5px]"></div>
-
-            <div class="relative z-10 p-8 md:p-16 lg:p-20">
-                
-                <!-- Top Logo Bar (Only Logo) -->
+    <!-- Kalavedhi Section (Continuous blend from About) -->
+    <section id="kalavedhi" class="relative py-32 px-4 bg-cover bg-center overflow-hidden -mt-1" style="background-image: url('kalavedihero1.jpg');">
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/40 to-slate-950"></div>
+        <div class="relative z-10 max-w-7xl mx-auto">
+            <div class="relative overflow-hidden rounded-[2.5rem] shadow-2xl border border-white/20 bg-slate-950/30 backdrop-blur-sm p-8 md:p-16 lg:p-20">
                 <div class="flex justify-center md:justify-start mb-10">
                     <div class="bg-white/10 backdrop-blur-md px-4 py-2 rounded-2xl border border-white/20 shadow-xl inline-block">
                         <img src="kalavedinew.png" alt="Kalavedhi Logo" class="h-12 md:h-16 w-auto object-contain drop-shadow-[0_0_15px_rgba(59,130,246,0.8)]">
                     </div>
                 </div>
-
-                <!-- Main Grid Layout -->
                 <div class="grid lg:grid-cols-12 gap-12 items-center">
-                    
-                    <!-- Left Column: Malayalam-Inspired Cursive Title & Description (7 Cols) -->
                     <div class="lg:col-span-7 space-y-6 text-center md:text-left">
                         <div class="space-y-2">
                             <span class="block text-xs md:text-sm font-black tracking-[0.4em] uppercase text-blue-300 drop-shadow">
@@ -132,106 +102,92 @@
                                 Kalavedhi
                             </h2>
                         </div>
-
-                        <p class="text-slate-200 text-base md:text-lg leading-relaxed font-light max-w-xl">
+                        <p class="text-slate-100 text-base md:text-lg leading-relaxed font-light max-w-xl drop-shadow">
                             A celebration of unbridled student energy and artistic expression. We provide the stage, the community, and the spirit—bringing every UCEK-ian together for unforgettable moments.
                         </p>
-
                         <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-2">
-                            <div class="bg-blue-600/30 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-200 shadow-lg">
+                            <div class="bg-blue-600/40 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-100 shadow-lg">
                                 #UCEKianSpirit
                             </div>
-                            <div class="bg-blue-600/30 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-200 shadow-lg">
+                            <div class="bg-blue-600/40 border border-blue-400/40 backdrop-blur-md px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider text-blue-100 shadow-lg">
                                 #KSUKalavedhi
                             </div>
                         </div>
                     </div>
-
-                    <!-- Right Column: Interactive Coming Soon Event Card (5 Cols) -->
                     <div class="lg:col-span-5 flex justify-center">
-                        <div class="w-full max-w-sm bg-slate-900/90 backdrop-blur-xl border-2 border-white/20 rounded-[2rem] p-6 shadow-2xl relative overflow-hidden group/card transition hover:border-blue-500/50">
-                            
-                            <!-- Card Header -->
+                        <div class="w-full max-w-sm bg-slate-950/40 backdrop-blur-md border border-white/20 rounded-[2rem] p-6 shadow-2xl relative overflow-hidden group/card transition hover:border-blue-400/50">
                             <div class="flex justify-between items-center mb-6">
-                                <span class="text-xs font-black tracking-[0.2em] uppercase text-blue-400 bg-blue-500/10 px-3 py-1 rounded-full border border-blue-500/20">
+                                <span class="text-xs font-black tracking-[0.2em] uppercase text-blue-300 bg-blue-500/25 px-3 py-1 rounded-full border border-blue-400/30">
                                     Coming Soon
                                 </span>
-                                <span class="text-xs font-bold text-slate-400 uppercase tracking-widest">Event #01</span>
+                                <span class="text-xs font-bold text-slate-300 uppercase tracking-widest">Event #01</span>
                             </div>
-
-                            <!-- Interactive Coming Soon Box -->
-                            <div class="bg-slate-950 rounded-2xl p-8 text-center border border-slate-800 shadow-inner mb-6 relative overflow-hidden group-hover/card:border-blue-500/30 transition">
-                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent opacity-0 group-hover/card:opacity-100 transition"></div>
+                            <div class="bg-slate-900/40 rounded-2xl p-8 text-center border border-white/10 shadow-inner mb-6 relative overflow-hidden transition">
+                                <div class="absolute inset-0 bg-gradient-to-br from-blue-600/10 to-transparent"></div>
                                 <div class="relative z-10 space-y-3">
                                     <div class="text-3xl">✨</div>
                                     <h4 class="text-lg font-black tracking-widest text-white uppercase">Coming Soon</h4>
-                                    <p class="text-xs text-slate-400 font-light leading-relaxed">
+                                    <p class="text-xs text-slate-200 font-light leading-relaxed">
                                         Event details will be announced soon. Stay tuned for the big reveal!
                                     </p>
                                 </div>
                             </div>
-
-                            <!-- Card Footer -->
                             <div class="flex justify-between items-center text-xs font-black tracking-widest uppercase text-white">
                                 <span>Stay Tuned</span>
-                                <span class="text-blue-400 group-hover/card:translate-x-1 transition">→</span>
+                                <span class="text-blue-300 group-hover/card:translate-x-1 transition">→</span>
                             </div>
-
                         </div>
                     </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- KEAM Help Desk Section -->
-    <section id="helpdesk" class="py-24 px-4 max-w-6xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-12 items-center bg-white p-8 md:p-12 rounded-3xl shadow-2xl border border-slate-100">
-            <div>
-                <img src="helpdesk.PNG" alt="KEAM 2026 Admission Help Desk" class="rounded-2xl shadow-lg w-full object-cover border border-slate-100">
-            </div>
-            <div>
-                <h2 class="text-3xl font-black text-blue-900 mb-4">KEAM 2026 Admission Help Desk</h2>
-                <p class="text-slate-600 mb-8 leading-relaxed font-medium">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for instant updates and guidance.</p>
-                
-                <div class="mb-8">
-                    <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-7 py-3.5 rounded-2xl shadow-lg shadow-emerald-600/20 hover:bg-emerald-700 transition">
-                        <span>Join WhatsApp Help Group</span> 🚀
-                    </a>
-                </div>
-
-                <div class="grid grid-cols-2 gap-4">
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Anza</p>
-                        <p class="text-sm text-slate-600 font-medium">95675 83002</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Midhun</p>
-                        <p class="text-sm text-slate-600 font-medium">77368 96842</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Amina</p>
-                        <p class="text-sm text-slate-600 font-medium">90745 44049</p>
-                    </div>
-                    <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                        <p class="font-black text-blue-800">Aslam</p>
-                        <p class="text-sm text-slate-600 font-medium">85477 30374</p>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Hostel Details Section with PDF Banner Link -->
-    <section id="hostels" class="py-24 px-4 max-w-5xl mx-auto watermark-bg">
-        <div class="relative z-10 bg-white shadow-2xl rounded-3xl p-8 md:p-12 border border-slate-100 text-center">
-            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-3">Hostel & PG Directory</h2>
-            <p class="text-slate-500 mb-10 font-medium">Verified accommodation listings and contact details near Kariavattom campus.</p>
-            
-            <!-- Clickable PDF Banner Link -->
-            <a href="HOSTEL DET.pdf" target="_blank" class="group relative block overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 to-blue-900 p-8 md:p-10 text-white shadow-xl transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl">
+    <!-- KEAM Help Desk Section (Continuous blend from Kalavedhi) -->
+    <section id="helpdesk" class="relative py-32 px-4 bg-cover bg-center overflow-hidden -mt-1" style="background-image: url('helpdesk.PNG');">
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/40 to-slate-950"></div>
+        <div class="relative z-10 max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center bg-slate-950/40 backdrop-blur-md p-8 md:p-12 rounded-[2.5rem] shadow-2xl border border-white/20">
+                <div>
+                    <img src="helpdesk.PNG" alt="KEAM 2026 Admission Help Desk" class="rounded-2xl shadow-lg w-full object-cover border border-white/20">
+                </div>
+                <div>
+                    <h2 class="text-3xl font-black text-white mb-4">KEAM 2026 Admission Help Desk</h2>
+                    <p class="text-slate-200 mb-8 leading-relaxed font-medium">Have questions regarding admissions? Reach out to our student coordinators directly or join our community group for instant updates and guidance.</p>
+                    <div class="mb-8">
+                        <a href="https://chat.whatsapp.com/Il9nXtRy6Fs84HoeYoYOUR?s=sh&p=a&ilr=0" target="_blank" class="inline-flex items-center gap-2 bg-emerald-600 text-white font-bold px-7 py-3.5 rounded-2xl shadow-lg shadow-emerald-600/20 hover:bg-emerald-500 transition">
+                            <span>Join WhatsApp Help Group</span> 🚀
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-slate-900/50 p-4 rounded-2xl border border-white/10">
+                            <p class="font-black text-blue-300">Anza</p>
+                            <p class="text-sm text-slate-200 font-medium">95675 83002</p>
+                        </div>
+                        <div class="bg-slate-900/50 p-4 rounded-2xl border border-white/10">
+                            <p class="font-black text-blue-300">Midhun</p>
+                            <p class="text-sm text-slate-200 font-medium">77368 96842</p>
+                        </div>
+                        <div class="bg-slate-900/50 p-4 rounded-2xl border border-white/10">
+                            <p class="font-black text-blue-300">Amina</p>
+                            <p class="text-sm text-slate-200 font-medium">90745 44049</p>
+                        </div>
+                        <div class="bg-slate-900/50 p-4 rounded-2xl border border-white/10">
+                            <p class="font-black text-blue-300">Aslam</p>
+                            <p class="text-sm text-slate-200 font-medium">85477 30374</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hostel Details Section (Continuous blend from Help Desk) -->
+    <section id="hostels" class="relative py-32 px-4 max-w-5xl mx-auto watermark-bg">
+        <div class="relative z-10 bg-slate-950/50 backdrop-blur-md shadow-2xl rounded-[2.5rem] p-8 md:p-12 border border-white/20 text-center">
+            <h2 class="text-3xl md:text-4xl font-black text-white mb-3">Hostel & PG Directory</h2>
+            <p class="text-slate-200 mb-10 font-medium">Verified accommodation listings and contact details near Kariavattom campus.</p>
+            <a href="HOSTEL DET.pdf" target="_blank" class="group relative block overflow-hidden rounded-3xl bg-gradient-to-r from-blue-700 to-blue-900 p-8 md:p-10 text-white shadow-xl transition-all duration-300 hover:scale-[1.01] hover:shadow-2xl border border-white/20">
                 <div class="absolute inset-0 bg-blue-600 opacity-0 group-hover:opacity-20 transition duration-300"></div>
                 <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
                     <div class="text-left">
@@ -252,75 +208,55 @@
         </div>
     </section>
 
-    <!-- Campus & Event Gallery Section (Infinite Auto-Scroll Carousel) -->
-    <section id="gallery" class="py-24 px-4 bg-slate-900 overflow-hidden">
-        <!-- Infinite Scrolling Marquee Wrapper -->
+    <!-- Campus & Event Gallery Section -->
+    <section id="gallery" class="py-24 px-4 bg-slate-950 overflow-hidden border-t border-white/5">
         <div class="relative w-full overflow-hidden">
-            <!-- Gradient Fade Edges for Smooth Look -->
-            <div class="absolute left-0 inset-y-0 w-20 bg-gradient-to-r from-slate-900 to-transparent z-10 pointer-events-none"></div>
-            <div class="absolute right-0 inset-y-0 w-20 bg-gradient-to-l from-slate-900 to-transparent z-10 pointer-events-none"></div>
-
-            <!-- Moving Track (Duplicated images to ensure infinite smooth looping) -->
+            <div class="absolute left-0 inset-y-0 w-20 bg-gradient-to-r from-slate-950 to-transparent z-10 pointer-events-none"></div>
+            <div class="absolute right-0 inset-y-0 w-20 bg-gradient-to-l from-slate-950 to-transparent z-10 pointer-events-none"></div>
             <div class="flex gap-6 animate-marquee w-max">
-                
-                <!-- Set 1 -->
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="collleg entrnace.jpeg" alt="College Entrance" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery10.jpeg" alt="Gallery 10" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery9.jpeg" alt="Gallery 9" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery8.jpeg" alt="Gallery 8" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery7.jpeg" alt="Gallery 7" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery6.jpeg" alt="Gallery 6" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="heroclg3.jpeg" alt="Hero College 3" class="w-full h-full object-cover">
                 </div>
-
-                <!-- Duplicate Set for Seamless Infinite Loop -->
+                <!-- Duplicate Set -->
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="collleg entrnace.jpeg" alt="College Entrance" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery10.jpeg" alt="Gallery 10" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery9.jpeg" alt="Gallery 9" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery8.jpeg" alt="Gallery 8" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery7.jpeg" alt="Gallery 7" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="gallery6.jpeg" alt="Gallery 6" class="w-full h-full object-cover">
                 </div>
-
                 <div class="w-80 md:w-96 h-64 md:h-80 rounded-3xl overflow-hidden shadow-2xl border border-white/10 flex-shrink-0">
                     <img src="heroclg3.jpeg" alt="Hero College 3" class="w-full h-full object-cover">
                 </div>
-
             </div>
         </div>
     </section>
@@ -340,7 +276,7 @@
     </style>
 
     <!-- Footer / Join Us Section -->
-    <footer id="join" class="bg-slate-950 text-white py-20 px-4 text-center mt-20 border-t border-slate-900">
+    <footer id="join" class="bg-slate-950 text-white py-20 px-4 text-center border-t border-white/10">
         <img src="logo ksu.jpeg" alt="KSU logo" class="h-16 w-16 object-contain rounded-2xl mx-auto mb-6 bg-white p-1.5 shadow-xl">
         <h2 class="text-3xl font-black mb-4">Join the Blue Movement</h2>
         <p class="text-slate-400 mb-8 max-w-xl mx-auto font-light">Be a part of progressive student action at UCEK. Sign up using our official registration form.</p>
