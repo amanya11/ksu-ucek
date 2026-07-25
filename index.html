@@ -50,27 +50,51 @@
         </div>
     </nav>
 
-    <!-- Home Section with College Background -->
+   <!-- Home Section with Current Background and Logo -->
     <section id="home" class="relative min-h-screen flex items-center justify-center py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden" style="background-image: url('gallery5f.jpeg');">
         
-        <!-- Multi-layer overlay to blend background image perfectly and fix text visibility -->
-        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/80 to-slate-950/95"></div>
+        <!-- Smooth gradient transition fading smoothly to dark at the bottom to merge into the next section -->
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-950/40 to-slate-950"></div>
 
         <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
             
-            <!-- KSU Logo (logo ksu.jpeg) Badge -->
+            <!-- KSU Logo Badge -->
             <div class="mb-8 p-3 bg-white/10 backdrop-blur-md rounded-2xl border border-white/20 shadow-2xl">
                 <img src="logo ksu.jpeg" alt="KSU Logo" class="h-20 w-20 md:h-24 md:w-24 object-contain rounded-xl shadow-[0_0_25px_rgba(59,130,246,0.6)]">
             </div>
 
-            <!-- Motto in Malayalam in ONE LINE with a matching clean modern font -->
-            <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-wide mb-8 text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)] whitespace-nowrap">
+            <!-- Motto in Malayalam in One Line -->
+            <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-wide mb-6 text-white drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)] whitespace-nowrap">
                 പഠനം. സമരം. സാഹോദര്യം
             </h1>
 
-            <!-- Description cleanly blended into the background -->
-            <p class="text-base md:text-xl max-w-3xl mx-auto leading-relaxed text-slate-300 font-light drop-shadow-md">
+        </div>
+    </section>
+
+    <!-- About Section with clgfrnt.jpeg Background Seamlessly Blended -->
+    <section id="about" class="relative py-32 px-4 text-center text-white bg-cover bg-center overflow-hidden -mt-1" style="background-image: url('clgfrnt.jpeg');">
+        
+        <!-- Continuous background overlay matching the bottom of home section to create an uninterrupted blend -->
+        <div class="absolute inset-0 bg-gradient-to-b from-slate-950 via-slate-950/85 to-slate-950/95"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto flex flex-col items-center space-y-8">
+            
+            <!-- Heading with Distinct Typography Style -->
+            <span class="text-xs md:text-sm font-black tracking-[0.4em] uppercase text-blue-400 drop-shadow">
+                Our Roots & Mission
+            </span>
+            <h2 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.8)] font-serif">
+                About UCEK KSU Wing
+            </h2>
+
+            <!-- Description Text -->
+            <p class="text-base md:text-xl leading-relaxed text-slate-300 font-light drop-shadow-md max-w-3xl">
                 Breaking the long 26 years of only one unit/party in UCEK's history, we have emerged to bring you the KSU wing of our college—standing up for the students, for every need of the student.
+            </p>
+
+            <!-- Solidarity & Social Justice Details -->
+            <p class="text-sm md:text-lg leading-relaxed text-blue-100 font-light drop-shadow-md max-w-2xl pt-4 border-t border-white/10">
+                We support and aim for <strong>Solidarity</strong> by uniting every student voice in mutual support, and <strong>Social Justice</strong> by fiercely standing up against campus inequality and protecting student rights.
             </p>
 
         </div>
