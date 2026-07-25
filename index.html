@@ -207,21 +207,61 @@
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="py-20 px-4 max-w-7xl mx-auto">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl md:text-4xl font-black text-blue-900 mb-3">Campus & Event Gallery</h2>
-            <p class="text-slate-500 font-medium">Glimpses of University College of Engineering Kariavattom</p>
-        </div>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div class="h-80 rounded-2xl overflow-hidden shadow-lg border border-slate-200 group">
-                <img src="collleg entrnace.jpeg" alt="College Entrance" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            </div>
-            <div class="h-80 rounded-2xl overflow-hidden shadow-lg border border-slate-200 group">
-                <img src="colg (1).png" alt="College Building View" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
-            </div>
-            <div class="h-80 rounded-2xl overflow-hidden shadow-lg border border-slate-200 group">
-                <img src="colg clock.png" alt="College Clock Tower" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+   <!-- Campus & Event Gallery Section -->
+    <section id="gallery" class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="relative overflow-hidden rounded-3xl bg-slate-950 text-white shadow-2xl border border-blue-900/40 p-8 md:p-16">
+            <!-- Background Hero Image (clgfrnt.jpg) -->
+            <div class="absolute inset-0 opacity-30 bg-cover bg-center mix-blend-overlay" style="background-image: url('clgfrnt.jpg');"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/80 to-transparent"></div>
+
+            <div class="relative z-10">
+                <!-- Section Header -->
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="inline-block bg-blue-500/30 text-blue-200 border border-blue-400/30 px-4 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase mb-4 backdrop-blur-md">
+                        UCEK Moments
+                    </span>
+                    <h2 class="text-3xl md:text-5xl font-black mb-3 tracking-tight">Campus & Event Gallery</h2>
+                    <p class="text-slate-300 font-light text-sm md:text-base">Glimpses of University College of Engineering Kariavattom and our active student movement.</p>
+                </div>
+
+                <!-- Gallery Grid Featuring KSU Flag & Campus Views -->
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Gallery Item 1: KSU Flag (gallery5f.jpg) -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-slate-900 border border-white/10 shadow-xl transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                        <div class="h-72 overflow-hidden">
+                            <img src="gallery5f.jpg" alt="KSU Flag at UCEK" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <span class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold mb-2 shadow-md">KSU Spirit</span>
+                            <h3 class="text-xl font-bold text-white">The Student Movement</h3>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 2: College Front (clgfrnt.jpg) -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-slate-900 border border-white/10 shadow-xl transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                        <div class="h-72 overflow-hidden">
+                            <img src="clgfrnt.jpg" alt="UCEK Clock Tower & Campus" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <span class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold mb-2 shadow-md">Our Campus</span>
+                            <h3 class="text-xl font-bold text-white">Historic Clock Tower</h3>
+                        </div>
+                    </div>
+
+                    <!-- Gallery Item 3: Event Gathering (gallery2.jpg) -->
+                    <div class="group relative overflow-hidden rounded-3xl bg-slate-900 border border-white/10 shadow-xl transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
+                        <div class="h-72 overflow-hidden">
+                            <img src="gallery2.jpg" alt="Student Meet & Talk Session" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90"></div>
+                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                            <span class="inline-block bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-bold mb-2 shadow-md">Engagements</span>
+                            <h3 class="text-xl font-bold text-white">Student Discussions</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
